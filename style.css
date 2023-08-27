@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-image: url(https://www.creativefabrica.com/wp-content/uploads/2021/07/31/Abstract-Fluid-Yellow-Green-Background-Graphics-15310202-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: #af2424; */
+    align-items: center;
+}
+.box{
+    box-shadow: 20px 15px 20px rgba(7, 7, 7, 0.384);
+    background: linear-gradient(30deg, #ced104, #00ffd5);
+    width: 400px;
+    height: auto;
+    /* background-color: rgb(65, 64, 63); */
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 80px;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-left: 30px;
+}
+.search input{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-inline: 20px;
+    font-size: 17px;
+    color: rgb(106, 139, 14);
+    font-weight: 600;
+}
+.search img{
+    margin-left: 15px;
+    width:19px;
+    cursor: pointer;
+    background-color: beige;
+    width: 30px;
+    border-radius: 50px;
+    padding: 5px;
+}
+.weahter-img img{
+    /* background-color: aquamarine; */
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: -40px;
+}
+.temp{
+    margin-top: 10px;
+    font-size: 25px;
+    color: rgba(53, 51, 48, 0.829);
+}
+.temp h3{
+    margin-top: 20px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 20px;
+}
+.col{
+    display: flex;
+    margin: 20px;
+    width: 100px;
+    height: 120px;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+.col img{
+    width: 35px;
+    height: 35px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+}
+.info p{
+    font-size:18px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.info .wind{
+    font-size: 16px;
+}
